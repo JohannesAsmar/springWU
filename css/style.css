@@ -1,25 +1,34 @@
 header {
-height: 20vh;
+height: 15vh;
 background-color: rgb(23, 23, 23);
+font-family:'Courier New', Courier, monospace;
+font-size: 300%;
+color: rgb(255, 255, 255);
 
 }
 
 nav {
-    height: 15vh;
+    height: 10vh;
     background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
 main {
-    height: 80vh;
+    height: 60vh;
     background-color: black;
 }
 
 footer {
-    height: 25vh;
+    height: 15vh;
     background-color: rgb(43, 43, 43);
-
+    display: flex;
+    justify-content: space-around;
 }
+
+
 
 body {
 margin: 0;
