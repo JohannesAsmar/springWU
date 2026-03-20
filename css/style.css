@@ -1,4 +1,7 @@
 header {
+display: flex;
+justify-content: center;
+align-items: center;
 height: 15vh;
 background-color: rgb(23, 23, 23);
 font-family:'Courier New', Courier, monospace;
@@ -10,8 +13,10 @@ color: rgb(255, 255, 255);
 nav {
     height: 10vh;
     background-color: rgb(43, 43, 43);
+    font-size: 150%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -26,8 +31,20 @@ main {
 footer {
     height: 15vh;
     background-color: rgb(43, 43, 43);
+    font-size: 200%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(65, 90, 255);
+}
+a:active {
+    color: rgb(78, 78, 78);
 }
 
 
